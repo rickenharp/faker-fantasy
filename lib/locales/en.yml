@@ -5,7 +5,7 @@ en:
         format:
           - "#{region_adjective} #{terrain}"
           - "#{terrain} of (the) #{region_noun}"
-          - "#{the} #{terrain} #{region_adjective}"
+          - "#{the} #{region_adjective} #{terrain}"
           - "#{region_noun} #{terrain}"
           - "#{region_noun}'s #{region_adjective} #{terrain}"
           - "#{region_adjective} #{terrain} of (the) #{region_noun}"
