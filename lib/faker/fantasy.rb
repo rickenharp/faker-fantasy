@@ -8,19 +8,35 @@ module Faker
     flexible :fantasy
 
     class << self
+      def region_name
+        parse('fantasy.region.format')
+      end
+
       def place_name
         parse('fantasy.place.format')
       end
 
-      def place
+      def terrain
+        fetch('fantasy.region.terrain')
+      end
+
+      def region_adjective
+        fetch('fantasy.region.adjective')
+      end
+
+      def region_noun
+        fetch('fantasy.region.noun')
+      end
+
+      def place_place
         fetch('fantasy.place.place')
       end
 
-      def adjective
+      def place_adjective
         fetch('fantasy.place.adjective')
       end
 
-      def noun
+      def place_noun
         fetch('fantasy.place.noun')
       end
 
